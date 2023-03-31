@@ -1,0 +1,44 @@
+.sub-main {
+
+    &__block {
+        display: flex;
+        gap: 30px;
+        padding: 30px;
+    }
+
+    &__card {
+        display: flex;
+        align-items: center;
+        flex: 1;
+        padding: 20px 85px 15px 27px;
+        background: #FFFFFF;
+        border-radius: 10px;
+        gap: 18px;
+        transition: 0.5s ease;
+        &:hover {
+            outline: 1px solid #080707;
+            cursor: pointer;
+            background: #ecebeb;
+        }
+    }
+
+    &__text {
+
+    }
+
+    &__title {
+        font-weight: 300;
+        font-size: 12px;
+        line-height: 18px;
+        color: #262626;
+    }
+
+    &__sub-title {
+        font-weight: 600;
+        font-size: 22px;
+        line-height: 33px;
+        color: #262626;
+    }
+
+
+}
